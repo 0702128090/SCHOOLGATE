@@ -1,0 +1,70 @@
+
+ body {
+            background-color: #f4f6f8;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Table container */
+        .table-container {
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 90%;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Table heading */
+        table th {
+            background-color: #007bff;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        /* Alternating row colors */
+        table tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+
+        /* Row hover effect */
+        table tr:hover {
+            background-color: #e3f2fd;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        /* Table cell padding */
+        table td, table th {
+            padding: 12px;
+            text-align: center;
+            vertical-align: middle;
+            color: #000;
+        }
+
+        /* Styling for the student image */
+        .student-image {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* Edit button */
+        .btn-edit {
+
+            border-radius: 5px;
+         
+              background-color: green;
+  color: white;
+  padding: 10px;
+  width: 80px;
+  font-size: 20px;
+        }
+
+        .btn-edit:hover {
+            background-color: #218838;
+            color:#fff;
+        }
